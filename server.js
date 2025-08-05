@@ -64,3 +64,4 @@ app.get("/npcs", async (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Sacred Server v2.3.1 running on port ${PORT}`));
+import './relay.js';
